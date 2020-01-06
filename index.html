@@ -34,30 +34,28 @@
         </div>
     </header>
 
-    <main>
+   <main>
         <section class="section-about">
             <img src="img/portfoliophoto.JPG" class="headphoto"></img>
             <div class="u-center-text u-margin-bottom-big">
                 <h2 class="heading-secondary">
-                    Front End Focused
+                    Front End Developer
                     <br>With Full Stack Experience
                 </h2>
             </div>
 
             <div class="row">
-                <div class="col-1-of-2">
-                    <h3 class="heading-tertiary u-margin-bottom-small"></h3>
-                    <p class="paragraph">
-                        As a self-taught programmer
-                    </p>
-
-                </div>
+                    <h3 class="description">
+                        As a self-taught programmer, I am committed to staying
+                        <br>attuned to the latest languages, frameworks, technologies,
+                        <br>and best practices
+                    </h3>>       
             </div>
+            
 
         </section>
 
         <section class="section-features">
-            <video src="Fall.mp4" autoplay muted loop height="500px" class="fallvideo"></video>
             <div class="row">
                 <div class="col-1-of-4">
                     <div class="feature-box">
@@ -76,7 +74,7 @@
                 <div class="col-1-of-4">
                     <div class="feature-box">
                         <i class="feature-box__icon icon-basic-share"></i>
-                        <h3 class="heading-tertiary u-margin-bottom-small">Server</h3>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Server side</h3>
                         <p class="feature-box__text">
                             <ul>
                                 <li>NodeJS</li>
@@ -105,6 +103,7 @@
                         <p class="feature-box__text">
                             <ul>
                                 <li>Git</li>
+                                <li>Heroku</li>
                             </ul>
                         </p>
                     </div>
@@ -198,15 +197,14 @@
                             <img src="img/chat.gif" class="card__svg-icon card__svg-icon-3" alt="">
                             <div class="card__heading">
                                 <span class="card__heading-span--3">
-                                    Paywall Chat and Pay
+                                    Chat App
                                 </span>
                             </div>
                             <div class="card__details">
                                 <ul>
                                     <li>React | Redux</li>
+                                    <li>NodeJS</li>
                                     <li>Socket.io</li>
-                                    <li>Express | NodeJS</li>
-                                    <li>PostgreSQL</li>
                                 </ul>
                             </div>
                         </div>
@@ -215,11 +213,13 @@
                                 <div class="card__box">
                                     <div class="card__description">
                                         <p>
-                                            Payment app with live messaging, notifications, friends list
+                                            Chat with different users who are in the same chatroom
                                         </p>
                                     </div>
                                 </div>
-                                <a href="#popup-3" class="btn btn--white btn--github">Demo</a>
+                                <a href="http://nathanschatapp.herokuapp.com/" class="btn popup__btn-5" target="_blank">Test</a>
+                                <a href="https://github.com/nathantmckenzie/chatapp" class="btn popup__btn-5" target="_blank">Source Code</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -229,20 +229,15 @@
     </main>
 
     <footer class="footer">
-        <div class="footer__logo-box">
-            <a href="#top">
-                <img src="img/logo-white.png" alt="Logo" class="footer__logo smooth-goto">
-            </a>
-        </div>
         <div class="row">
             <div class="col-1-of-2">
                 <div class="footer__navigation">
                     <ul class="footer__list">
                         <li class="footer__item">
-                            <a href="https://nathantmckenzie.github.io/speedtyping.io/" class="footer__link">GitHub</a>
+                            <a href="https://github.com/nathantmckenzie" class="footer__link">GitHub</a>
                         </li>
                         <li class="footer__item">
-                            <a href="#" class="footer__link">Resume</a>
+                            <a href="" class="footer__link">Resume</a>
                         </li>
                     </ul>
                 </div>
@@ -256,62 +251,7 @@
         </div>
     </footer>
 
-    <div class="popup" id="popup-2">
-        <div class="popup__content">
-            <div class="popup__left">
-                <a href="#projects"><img src="img/il_demo.gif" alt="Instalava Demo" class="popup__img"></a>
-            </div>
-            <div class="popup__right">
-                <a href="#section-tours" class="popup__close">&times;</a>
-                <h3 class="heading-secondary-sm popup__header-2">Instalava</h3>
-                <h3 class="heading-tertiary u-margin-bottom-small">React, Express, PostgreSQL</h3>
-                <div class="popup__text u-margin-bottom-medium">
-                    <p>
-                        Live feed, profile pages, followers.
-                    </p>
-                </div>
-                <a href="https://github.com/aj-4/lawa-ig" class="btn popup__btn-2">Source Code</a>
-            </div>
-        </div>
-    </div>
 
-    <div class="popup" id="popup-3">
-        <div class="popup__content">
-            <div class="popup__left">
-                <a href="#projects"><img src="img/pw_demo.gif" alt="Paywaal Demo" class="popup__img"></a>
-            </div>
-            <div class="popup__right">
-                <a href="#section-tours" class="popup__close">&times;</a>
-                <h3 class="heading-secondary-sm popup__header-3">Paywaal</h3>
-                <h3 class="heading-tertiary u-margin-bottom-small">React, Redux, Socket.io</h3>
-                <div class="popup__text u-margin-bottom-medium">
-                    <p>
-                        Chat, notifications, add friends. Live.
-                    </p>
-                </div>
-                <a href="https://github.com/aj-4/hrpaymo" class="btn popup__btn-3">Source Code</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="popup" id="popup-4">
-        <div class="popup__content">
-            <div class="popup__left">
-                <a href="#projects"><img src="img/pp_demo.gif" alt="Perfect Plate Demo" class="popup__img"></a>
-            </div>
-            <div class="popup__right">
-                <a href="#section-tours" class="popup__close">&times;</a>
-                <h3 class="heading-secondary-sm popup__header-4">Perfect Plate</h3>
-                <h3 class="heading-tertiary u-margin-bottom-small">React, CSS, Express</h3>
-                <div class="popup__text u-margin-bottom-medium">
-                    <p>
-                        Instant nutrition info for any food. Create plates.
-                    </p>
-                </div>
-                <a href="https://github.com/aj-4/perfect-plate" class="btn popup__btn-4">Source Code</a>
-            </div>
-        </div>
-    </div>
 
     <div class="popup" id="popup-5">
         <div class="popup__content">
